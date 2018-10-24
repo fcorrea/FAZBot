@@ -1,0 +1,29 @@
+Mechanical
+
+4 - 600x12mm Stainless Steel Rods
+2 - 624x12mm Stainless Stell Rods
+2 - 600x20x20mm Extruted aluminum bars
+2 - 470mmx11mm Lead Screw with 25x8mm turned and both ends 
+
+Motion
+
+2 - Nema 23 23kg.cm torque (Z axis (can be 12kg.com but requires Lead Screw adjustments))
+2 - Nema 23 12kg.cm torque
+
+Bearings
+
+8 - 12mm (LM12UU) Linear Bearings (can be replaced by 8 Igus Drylin RJ4JP-01-12)
+2 - 608 Bearings
+
+Belts
+
+Yet to be decided
+
+Electronics
+
+For this machine I'm going to use what I have at my disposal, which is:
+
+Host System: BeagleBone Black Running Debian 9 with MachineKit (which is great so I can have Samba running and just drop print files over the net)
+3D Printer Controler: Replicape Rev B3
+Power Source: 24v 15A PSU
+Hotend: E3D Titan Extruder direct drive (great for 1.75/3mm filaments)
